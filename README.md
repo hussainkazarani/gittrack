@@ -1,16 +1,56 @@
-# gittrack
+# GitTrack
 
-A new Flutter project.
+**A Clean GitHub Profile Viewer**
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+GitTrack is an app that allows users to search for any GitHub user and view detailed information about their profile, repositories, followers, following, and more — all in one place using the GitHub API.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **User Profile Display**: View comprehensive GitHub user profiles.
+- **Repositories List**: See public repositories with descriptions and links.
+- **Followers & Following**: Explore social connections of any user.
+- **Search Functionality**: Quickly search for GitHub users by username.
+- **Clean UI**: Modern design with responsive UI built using Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Home View & User Profile View
+
+---
+
+<p float="left">
+  <img src="assets/github_images/gittrack1.jpg" width="300" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/github_images/gittrack2.jpg" width="300" />
+</p>
+
+## Installation and Usage (End Users)
+
+### Prerequisites
+
+- **Flutter SDK** (version 3.0 or above)
+- Android/iOS Emulator or Physical Device
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/RABIYASULTANA/gittrack.git
+   cd gittrack
+   ```
+
+   - Alternatively, download the zip file:
+     - Download from [here](https://github.com/hussainkazarani/trendview/archive/refs/heads/main.zip).
+     - Unextract the zip file.
+
+2. **Install Dependencies**
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the App**
+   ```bash
+   flutter run
+   ```
